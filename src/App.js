@@ -1,10 +1,19 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Routing from './Routing';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Test />
-    </div>
+    <BrowserRouter className="App">
+      <Header />
+      <div className="middleContent">
+        <Routing />
+      </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

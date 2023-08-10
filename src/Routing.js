@@ -1,19 +1,19 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import MathHome from './Components/MathHome'
-import Prime from './Components/Prime'
-import PowerOfTwo from './Components/PowerOfTwo'
-import Factorial from './Components/Factorial'
-import Fibonacci from './Components/Fibonacci'
+import MathHome from './Pages/MathHome'
+import Prime from './Pages/Prime'
+import PowerOfTwo from './Pages/PowerOfTwo'
+import Factorial from './Pages/Factorial'
+import Fibonacci from './Pages/Fibonacci'
 
 const Routing = () => {
     return (
         <Routes>
             <Route path='/' element={<MathHome />} />
-            < Route path='/' element={<Prime />} />
-            <Route path='/' element={<PowerOfTwo />} />
-            <Route path='/' element={<Factorial />} />
-            <Route path='/' element={<Fibonacci />} />
+            < Route path='prime' element={<Prime />} />
+            <Route path='power' element={<PowerOfTwo />} />
+            <Route path='factorial' element={<Factorial />} />
+            <Route path='fibonacci' element={<Fibonacci />} />
         </Routes>
     )
 }
