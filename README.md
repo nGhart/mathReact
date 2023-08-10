@@ -1,3 +1,9 @@
+1.Fibonacci Sequence
+2.Factorials
+3.Prime Numbers
+4.Powers of Two
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
